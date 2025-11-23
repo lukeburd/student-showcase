@@ -1,6 +1,6 @@
 {
-  "studentName": "Chen Wei",
-  "projectTitle": "Basketball Game Simulator",
+  "studentName": "C. Wei",
+  "projectTitle": "Basketball Game Simulator (Fake Project)",
   "description": "A Monte Carlo simulation analyzing basketball game outcomes based on player statistics. Includes visualizations of win probabilities and performance predictions.",
   "projectType": ["Simulation", "Data Visualization"],
   "projectUrl": "https://example.com/basketball-sim",

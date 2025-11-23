@@ -1,6 +1,6 @@
 {
-  "studentName": "Alice Johnson",
-  "projectTitle": "Climate Data Explorer",
+  "studentName": "A. Johnson",
+  "projectTitle": "Climate Data Explorer (Fake Project)",
   "description": "An interactive web application for visualizing global temperature trends and climate data using React and D3.js. Users can explore historical data and compare different regions.",
   "projectType": ["Web App", "Data Visualization"],
   "projectUrl": "https://example.com/climate-explorer",

@@ -1,0 +1,12 @@
+{
+  "studentName": "Paul Resnick",
+  "projectTitle": "This Project Showcase",
+  "description": "Computer scientists love recursion; so I made a card for this showcase app. It's auto-deployed via GitHub pages. Each student adds their own project card by making a GitHub pull request.",
+  "projectType": ["Web App"],
+  "projectUrl": "https://umsi211f2025.github.io/student-showcase/",
+  "githubUrl": "https://github.com/umsi211F2025/student-showcase",
+  "projectImage": "PortfolioImage.png",
+  "tags": ["React", "Static"],
+  "reflections": "Here's a typical story for this course. CoPilot incorrectly configured and then incorrectly diagnosed GitHub actions deployment issue for this app. Different prompt to a different LLM model helped diagnosis the problem, after which fix was quick.",
+  "studentPhoto": "Resnick_Paul.jpeg"
+}

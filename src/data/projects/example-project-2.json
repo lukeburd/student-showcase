@@ -1,6 +1,6 @@
 {
-  "studentName": "Bob Martinez",
-  "projectTitle": "Task Management System",
+  "studentName": "B. Martinez",
+  "projectTitle": "Task Management System (Fake Project)",
   "description": "A full-stack task management application with user authentication, real-time updates, and a SQLite backend. Built with React frontend and Python Flask API.",
   "projectType": ["Web App", "API/Backend"],
   "projectUrl": "https://example.com/task-manager",
