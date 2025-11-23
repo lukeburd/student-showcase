@@ -33,12 +33,12 @@ export function ProjectCard({ project }: { project: Project }) {
     <article className={styles['project-card']}>
       <div className={styles['project-image']}>
         <img
-          src={project.projectImage || '/images/placeholder.svg'}
+          src={project.projectImage || `${import.meta.env.BASE_URL}images/placeholder.svg`}
           alt={project.projectTitle}
           onError={(e: React.SyntheticEvent<HTMLImageElement>) => {
             const img = e.currentTarget;
             if (img.src.endsWith('placeholder.svg')) return;
-            img.src = '/images/placeholder.svg';
+            img.src = `${import.meta.env.BASE_URL}images/placeholder.svg`;
           }}
         />
       </div>
@@ -46,13 +46,13 @@ export function ProjectCard({ project }: { project: Project }) {
       <div className={styles['project-content']}>
         <div className={styles['project-header']}>
           <img
-            src={project.studentPhoto || '/images/silhouette-student.svg'}
+            src={project.studentPhoto || `${import.meta.env.BASE_URL}images/silhouette-student.svg`}
             alt={project.studentName}
             className={styles['student-photo']}
             onError={(e: React.SyntheticEvent<HTMLImageElement>) => {
               const img = e.currentTarget;
               if (img.dataset.fallbackUsed === 'true') return;
-              img.src = '/images/silhouette-student.svg';
+              img.src = `${import.meta.env.BASE_URL}images/silhouette-student.svg`;
               img.dataset.fallbackUsed = 'true';
             }}
           />
